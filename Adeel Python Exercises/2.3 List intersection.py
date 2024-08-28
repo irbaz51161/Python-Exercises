@@ -1,5 +1,13 @@
-# def comparing(l1,l2):
+def comparing(l1,l2):
+    common = []
+    if l1 == l2:
+        print("The commom integers in the both list are:", l1)
+    else:
+        for element in l1:
+            if element in l2 and element not in common:
+                common.append(element)
 
+        print("The commom integers in the both list are: ", common)
 
 
 l = int(input("How many numbers you want to enter into the list? : "))
@@ -17,5 +25,5 @@ print("List#01", list1)
 print("List#02", list2)
 
 
-
 comparing(list1, list2)
+
