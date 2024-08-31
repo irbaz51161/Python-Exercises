@@ -26,4 +26,3 @@ print("List#02", list2)
 
 
 comparing(list1, list2)
-
