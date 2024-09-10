@@ -14,3 +14,7 @@ studentss = [
     {"name" : "Draco", "house" : "Slytherin", "Patronus" : None}
 ]
 
+print(studentss)
+
+for stud in studentss:
+    print(stud["name"], stud["house"], stud["Patronus"], sep=", ")
